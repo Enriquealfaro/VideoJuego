@@ -18,5 +18,5 @@ Rectangulo.prototype.insertarDOM = function() {
     document.getElementById(this.id).style.width = this.ancho + "px";
     document.getElementById(this.id).style.height = this.alto + "px";
     document.getElementById(this.id).style.backgroundColor = color;
-    console.log(html);
+
 }
